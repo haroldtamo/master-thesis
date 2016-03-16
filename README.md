@@ -1,3 +1,5 @@
+CUED PhD thesis template
+========================
 > A LaTeX / XeLaTeX / LuaLaTeX PhD thesis template for Cambridge University Engineering Department.
 
 [![Build Status](https://api.travis-ci.org/kks32/phd-thesis-template.svg)](https://travis-ci.org/kks32/phd-thesis-template)
@@ -35,6 +37,8 @@
 *   Option to generate only specific chapters and references without the frontmatter and title page. Useful for review and corrections.
 
 *   Draft mode: Draft water mark, timestamp, version numbering and line numbering
+
+*   Add supervisor and/or advisor to your PhD thesis or MPhil report
 
 *   A LyX Template is now available at [https://github.com/kks32/PhDThesisLyX/](https://github.com/kks32/PhDThesisLyX/)
 
@@ -523,4 +527,3 @@ The history of releases can be viewed at [ChangeLog](ChangeLog.md)
 *   Tina Schwamb - testing and bug reports
 
 *   John Plaice - Bug fixes
-
