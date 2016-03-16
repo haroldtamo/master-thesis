@@ -1,5 +1,3 @@
-CUED PhD thesis template
-========================
 > A LaTeX / XeLaTeX / LuaLaTeX PhD thesis template for Cambridge University Engineering Department.
 
 [![Build Status](https://api.travis-ci.org/kks32/phd-thesis-template.svg)](https://travis-ci.org/kks32/phd-thesis-template)
@@ -525,3 +523,4 @@ The history of releases can be viewed at [ChangeLog](ChangeLog.md)
 *   Tina Schwamb - testing and bug reports
 
 *   John Plaice - Bug fixes
+
