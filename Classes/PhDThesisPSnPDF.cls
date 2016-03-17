@@ -1179,21 +1179,6 @@ wish to left align your text}
 
 \newcommand{\computeTitlePageSpacing}{
 
-
-% Title Box
-\newsavebox{\PHD@Title}
-\begin{lrbox}{\PHD@Title}
-  \begin{minipage}[c]{0.98\textwidth}
-    \centering \Huge \bfseries{\@title}
-    \ifthenelse{\equal{\@subtitle}{}}{
-      % subtitle is not defined
-    }{
-      \\
-      \centering \Large {\@subtitle}
-    } % subtitle is defined
-  \end{minipage}
-\end{lrbox}
-
 % University Crest Box
 \newsavebox{\PHD@crest}
 \begin{lrbox}{\PHD@crest}
@@ -1207,6 +1192,20 @@ wish to left align your text}
   \else
     % College shield is undefined
   \fi
+\end{lrbox}
+
+% Title Box
+\newsavebox{\PHD@Title}
+\begin{lrbox}{\PHD@Title}
+  \begin{minipage}[c]{0.98\textwidth}
+    \centering \Huge \bfseries{\@title}
+    \ifthenelse{\equal{\@subtitle}{}}{
+      % subtitle is not defined
+    }{
+      \\
+      \centering \Large {\@subtitle}
+    } % subtitle is defined
+  \end{minipage}
 \end{lrbox}
 
 % Author Box
